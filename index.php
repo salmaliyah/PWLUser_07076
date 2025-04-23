@@ -78,6 +78,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div>
                             <button class="btn btn-info mt-2" type="submit">Login</button>
                         </div>
+			<div class="mt-3">
+                           <p>Belum punya akun? <a href="addUser.php" class="text-warning">Daftar di sini</a></p>
+                        </div>
                     </form>
                 </div>
             </div>
